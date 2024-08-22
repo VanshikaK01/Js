@@ -35,3 +35,27 @@ const myFunction= function(){
        Object  =>  object
 
 */
+
+
+//********************************************* */
+
+//Stack(primitive) and heap(non primitive)
+//JavaScript is a dynamically typed language. This means that you don't need to specify the data type of a variable when you declare it.
+
+let myYT="hiteshdotcom"
+let anotherYT=myYT
+anotherYT="chaiaurcode"
+
+console.log(myYT)
+console.log(anotherYT)
+
+let UserOne={
+    email: "vanshika",
+    upi:"hjk",
+
+}
+
+let UserTwo=UserOne
+UserTwo.email="tyj"
+console.log(UserOne.email)
+console.log(UserTwo.email);
