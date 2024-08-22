@@ -59,3 +59,5 @@ let UserTwo=UserOne
 UserTwo.email="tyj"
 console.log(UserOne.email)
 console.log(UserTwo.email);
+
+//in stack a copy of original is given while in heap refrence to the original is given
